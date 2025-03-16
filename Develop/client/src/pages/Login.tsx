@@ -4,6 +4,7 @@ import Auth from '../utils/auth';
 import { login } from "../api/authAPI";
 
 const Login = () => {
+  console.log("Login component rendered");
   const [loginData, setLoginData] = useState({
     username: '',
     password: ''
