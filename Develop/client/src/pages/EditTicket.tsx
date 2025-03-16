@@ -1,7 +1,7 @@
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { retrieveTicket, updateTicket } from '../api/ticketAPI';
+import { retrieveTicket, updateTicket } from '../api/tickets';
 import { TicketData } from '../interfaces/TicketData';
 
 const EditTicket = () => {
