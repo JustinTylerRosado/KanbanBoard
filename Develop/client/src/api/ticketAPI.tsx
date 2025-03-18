@@ -29,7 +29,7 @@ const retrieveTickets = async () => {
 const retrieveTicket = async (id: number | null): Promise<TicketData> => {
   try {
     const response = await fetch(
-      `/api/ticketAPI/${id}`,
+      `/api/tickets/${id}`,
       {
         headers: {
           'Content-Type': 'application/json',
